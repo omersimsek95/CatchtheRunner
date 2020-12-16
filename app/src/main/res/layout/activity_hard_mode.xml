@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".HardMode">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="407dp"
+        android:layout_height="440dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/roadrunner2" />
+
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="3"
+            app:layout_row="0"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="3"
+            app:layout_row="1"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="3"
+            app:layout_row="2"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/roadrunner2" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:onClick="increaseScore"
+            app:layout_column="3"
+            app:layout_row="3"
+            app:srcCompat="@drawable/roadrunner2" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/time1Text"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:text="Time : "
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/highScore1Text"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/highScore1Text"
+        android:layout_width="114dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="60dp"
+        android:text="High Score :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/score1Text"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/score1Text"
+        android:layout_width="83dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="16dp"
+        android:text="Score : 0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="118dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="14dp"
+        android:background="#8BC34A"
+        android:onClick="tryButton"
+        android:text="try agaın!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout3" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="124dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00BCD4"
+        android:onClick="setButton"
+        android:text="set dıffıculty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button18"
+        app:layout_constraintStart_toEndOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout3" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="105dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="#FF5722"
+        android:onClick="homeButton"
+        android:text="homepage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
