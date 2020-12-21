@@ -7,3 +7,18 @@ Catch the Runner is a fun game. Although the game content is simple, the gamepla
 <img height="300" src="https://i.ibb.co/hdg6SG2/Whats-App-Image-2020-10-26-at-18-45-21-5.jpg" />,
 
 <br>
+
+<br>
+<img height="300" src="https://i.ibb.co/HNQSC73/Whats-App-Image-2020-10-26-at-18-45-21-4.jpg" />,
+
+<br>
+
+<br>
+<img height="300" src="https://i.ibb.co/mGSJn2F/Whats-App-Image-2020-10-26-at-18-45-21-3.jpg" />,
+
+<br>
+<br>
+<img height="300" src="https://i.ibb.co/fdZS9Kc/Whats-App-Image-2020-10-26-at-18-45-21.jpg" />,
+
+<br>
+
