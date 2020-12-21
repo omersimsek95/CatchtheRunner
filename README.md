@@ -3,7 +3,7 @@ Introduction of Application Road Runner appears periodically on the screen. Scor
 
 Catch the Runner is a fun game. Although the game content is simple, the gameplay is not simple.This feature adds ambition to the game and increases the fun of the game.
 
-..image:: https://i.ibb.co/hdg6SG2/Whats-App-Image-2020-10-26-at-18-45-21-5.jpg
-   :height: 100px
-   :width: 200 px
-   :scale: 50 %
+<br>
+<img height="300" src="https://i.ibb.co/hdg6SG2/Whats-App-Image-2020-10-26-at-18-45-21-5.jpg" />,
+
+<br>
